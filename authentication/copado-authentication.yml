@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.copado.com/developer-hub + https://copadomulticoudwebhooks.docs.apiary.io/ + https://docs.essentials.copado.com/en/articles/6808604-copado-essentials-api-token
+summary:
+  types: [apiKey]
+  api_key_in: [header, query]
+  oauth2_flows: []
+schemes:
+- name: ApiKey
+  type: apiKey
+  in: query
+  key: api_key
+  description: |
+    Copado APIs (Actions API, Webhooks API) are authenticated with a Copado API key.
+    Users generate/reset the key from the Copado Account Summary > API Key tab; the key
+    is passed as a parameter on webhook/action callout URLs. Copado Essentials issues a
+    per-account API token used the same way.
+  docs: https://docs.essentials.copado.com/en/articles/6808604-copado-essentials-api-token
+notes: |
+  Grounded in Copado developer docs, not an OpenAPI securityScheme (Copado publishes its
+  API reference as API Blueprint on Apiary rather than OpenAPI). No OAuth2 scope surface
+  is documented for the public developer APIs, so scopes/ is intentionally omitted.
