@@ -1,0 +1,22 @@
+generated: '2026-07-18'
+method: searched
+source: https://trust.copado.com/ + https://www.copado.com/platform-security
+standards:
+- id: soc2-type2
+  conforms: true
+  evidence: SOC 2 Type 2 attestation, audited annually by an independent firm (trust.copado.com / platform-security).
+- id: iso-27001
+  conforms: true
+  evidence: ISO/IEC 27001 certification maintained (trust.copado.com).
+- id: fedramp
+  conforms: true
+  evidence: FedRAMP listed in Copado security control environment.
+- id: gdpr
+  conforms: true
+  evidence: Copado security framework aligns to GDPR and other privacy requirements.
+- id: oauth2
+  conforms: false
+  evidence: Public developer APIs (Actions/Webhooks) documented as API-key authenticated; no OpenAPI oauth2 securityScheme captured.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No published OpenAPI with application/problem+json error schema located.

@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@copado/copado-cli + https://docs.copado.com/articles/copado-ci-cd-publication/cli-overview
+name: Copado CLI
+package: "@copado/copado-cli"
+version: 3.14.0
+official: true
+kind: salesforce-cli-plugin
+description: |
+  The Copado CLI is a Salesforce CLI (sf) plugin that lets you execute Copado DevOps
+  tasks from an IDE or terminal — driving Git and Salesforce operations, issue-tracking
+  tools (e.g. Jira), and user-story automation from the command line.
+install:
+- method: npm
+  command: npm install -g @copado/copado-cli
+- method: sf-plugin
+  command: sf plugins install @copado/copado-cli
+  requires: Salesforce CLI (sf) installed first
+docs:
+- overview: https://docs.copado.com/articles/#!copado-ci-cd-publication/cli-overview
+- commands: https://docs.copado.com/articles/copado-ci-cd-publication/cli-commands
+related:
+- name: webhook-cli
+  repo: https://github.com/CopadoSolutions/webhook-cli
+  description: Command-line interface for the Copado Webhook API.

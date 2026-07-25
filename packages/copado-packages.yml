@@ -1,0 +1,25 @@
+generated: '2026-07-18'
+method: searched
+source: https://www.npmjs.com/package/@copado/copado-cli + https://pypi.org/project/copado-ai-sdk/
+packages:
+- language: javascript
+  registry: npm
+  name: "@copado/copado-cli"
+  url: https://www.npmjs.com/package/@copado/copado-cli
+  install: npm install -g @copado/copado-cli
+  version: 3.14.0
+  publisher: Copado Solutions
+  description: Copado Developer CLI (Salesforce CLI plugin for Copado DevOps tasks).
+  official: true
+- language: python
+  registry: pypi
+  name: copado-ai-sdk
+  url: https://pypi.org/project/copado-ai-sdk/
+  install: pip install copado-ai-sdk
+  version: 0.1.0
+  description: Official Python SDK for the Copado AI Platform (chat with your data, document analysis, knowledge integration, DevOps automation).
+  source_repo: https://github.com/CopadoSolutions/copado_ai_sdk
+  official: true
+notes: |
+  @copado/copadodev-cli on npm is a third-party (community) package published by an
+  individual maintainer, NOT first-party Copado, and is excluded here.

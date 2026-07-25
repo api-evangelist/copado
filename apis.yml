@@ -1,8 +1,26 @@
 aid: copado
 name: Copado
-description: 'Copado is a company surfaced as a portfolio company of insight-partners, softbank-vision-fund
-  and added to the API Evangelist network as a stub for enrichment. Sector: devops. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Copado is an AI-powered DevOps platform for Salesforce and other low-code
+  SaaS clouds. It provides CI/CD, release management, version control, automated
+  robotic testing, data deployment, and security & governance for enterprise
+  Salesforce delivery teams. Copado extends its platform through a Developer Hub
+  (Functions, Actions, Job Engine, custom pipelines), a REST Actions API and Webhooks
+  API, an official Salesforce-CLI plugin, and a Python AI SDK. The company is backed
+  by Insight Partners and SoftBank Vision Fund and maintains SOC 2 Type 2, ISO 27001,
+  FedRAMP, and GDPR-aligned security posture.'
+accessModel:
+  pricing: unknown
+  onboarding: self-serve
+  trial: false
+  try_now: false
+  public: false
+  label: Self-serve signup
+  confidence: medium
+  source:
+  - authentication
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/62d8507d84c54d359ad063bc/68d6224cfed524ccca1b4ff4_Web%20Thumbnail_Copado_Intelligent%20DevOps%20Platform%20for%20Salesforce.avif
 url: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Devops
+- Salesforce
+- CI/CD
+- Release Management
+- Testing
+- DevSecOps
+- Low-Code
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +50,58 @@ maintainers:
 common:
 - type: Website
   url: https://www.copado.com/
+- type: DeveloperPortal
+  url: https://www.copado.com/developer-hub
+- type: Documentation
+  url: https://docs.copado.com/
+- type: APIReference
+  url: https://copadomulticoudwebhooks.docs.apiary.io/
+- type: GettingStarted
+  url: https://www.copado.com/developer-hub
+- type: Support
+  url: https://success.copado.com/
+- type: Blog
+  url: https://www.copado.com/blog/
+- type: GitHubOrganization
+  url: https://github.com/copadosolutions
+- type: Pricing
+  url: https://www.copado.com/pricing/
+- type: Login
+  url: https://login.copado.com/
+- type: TermsOfService
+  url: https://www.copado.com/legal/terms-of-use
+- type: PrivacyPolicy
+  url: https://www.copado.com/legal/privacy
+- type: Packages
+  url: packages/copado-packages.yml
+- type: SDKs
+  url: packages/copado-packages.yml
+- type: CLI
+  url: cli/copado-cli.yml
+- type: Authentication
+  url: authentication/copado-authentication.yml
+- type: ChangeLog
+  url: changelog/copado-changelog.yml
+- type: Lifecycle
+  url: lifecycle/copado-lifecycle.yml
+- type: StatusPage
+  url: https://status.copado.com/
+- type: Conformance
+  url: conformance/copado-conformance.yml
+- type: Compliance
+  url: https://trust.copado.com/
+- type: TrustCenter
+  url: security/copado-trust-center.yml
+- type: DomainSecurity
+  url: security/copado-domain-security.yml
+- type: VulnerabilityDisclosure
+  url: security/copado-vulnerability-disclosure.yml
+- type: Security
+  url: https://www.copado.com/disclosure
+- type: LLMsTxt
+  url: llms/copado-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

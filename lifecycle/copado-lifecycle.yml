@@ -1,0 +1,13 @@
+generated: '2026-07-18'
+method: searched
+source: https://status.copado.com/ + https://docs.copado.com/articles/release-notes-publication
+versioning:
+  scheme: calendar-version + seasonal
+  current: v25.28
+  docs: https://docs.copado.com/articles/release-notes-publication/copado-deployer-latest
+status_page: https://status.copado.com/
+release_notes: https://docs.copado.com/articles/release-notes-publication
+deprecation:
+  policy_url: null
+  sunset_header: null
+  notes: No dedicated published deprecation/Sunset-header policy located; changes are communicated through per-release notes.

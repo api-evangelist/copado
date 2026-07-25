@@ -1,0 +1,27 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.copado.com/articles/release-notes-publication/copado-deployer-latest
+scheme: calendar-version + seasonal (e.g. v25.28, "Winter '24")
+current: v25.28
+changelog_urls:
+- label: Copado Deployer — Latest Releases
+  url: https://docs.copado.com/articles/release-notes-publication/copado-deployer-latest
+- label: Release Notes (all products)
+  url: https://docs.copado.com/articles/release-notes-publication
+entries:
+- version: v25.28
+  date: '2025-10-08'
+  url: https://docs.copado.com/articles/release-notes-publication/copado-deployer-v25-28-release-notes
+  breaking: false
+- version: v25.12
+  date: '2025-08-13'
+  url: https://docs.copado.com/articles/release-notes-publication/copado-deployer-v25-12-release-notes
+  breaking: false
+- version: "Winter '24"
+  date: '2025-07-31'
+  url: https://docs.copado.com/articles/copado-ci-cd-publication/winter-24-release-notes
+  breaking: false
+notes: |
+  Copado publishes dated release notes per product line (Copado Deployer / CI-CD,
+  Copado Connect, Robotic Testing, etc.). Deployer ships on a rolling calendar-version
+  cadence (vYY.WW); platform features also land under seasonal release names.

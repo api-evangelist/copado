@@ -1,0 +1,17 @@
+generated: '2026-07-18'
+method: searched
+probe: true
+source: https://trust.copado.com/
+url: https://trust.copado.com/
+certifications:
+- SOC 2
+- ISO 27001
+- FedRAMP
+evidence:
+- source: https://trust.copado.com/
+  keywords:
+  - soc 2
+  - soc2
+  - iso/iec 27001
+  - fedramp
+  - trust center
