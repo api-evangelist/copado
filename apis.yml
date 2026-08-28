@@ -8,6 +8,17 @@ description: 'Copado is an AI-powered DevOps platform for Salesforce and other l
   API, an official Salesforce-CLI plugin, and a Python AI SDK. The company is backed
   by Insight Partners and SoftBank Vision Fund and maintains SOC 2 Type 2, ISO 27001,
   FedRAMP, and GDPR-aligned security posture.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: self-serve
