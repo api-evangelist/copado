@@ -21,15 +21,16 @@ deliveryModel:
   method: derived
 accessModel:
   pricing: unknown
-  onboarding: self-serve
+  onboarding: unknown
   trial: false
   try_now: false
   public: false
-  label: Self-serve signup
-  confidence: medium
+  label: Unknown
+  confidence: low
   source:
   - authentication
-  generated: '2026-07-22'
+  - security
+  generated: '2026-09-03'
   method: derived
 image: https://cdn.prod.website-files.com/62d8507d84c54d359ad063bc/68d6224cfed524ccca1b4ff4_Web%20Thumbnail_Copado_Intelligent%20DevOps%20Platform%20for%20Salesforce.avif
 url: https://raw.githubusercontent.com/api-evangelist/copado/refs/heads/main/apis.yml
