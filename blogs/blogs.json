@@ -2,6 +2,10 @@
   "repo": "copado",
   "feeds": [
     {
+      "source": "https://www.copado.com/blog/",
+      "error": "HTTPError"
+    },
+    {
       "source": "https://success.copado.com/",
       "feed_url": "https://success.copado.com/",
       "title": "",
@@ -10,5 +14,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
