@@ -170,6 +170,31 @@
     detected: '2026-10-21'
   status: not-a-workflow
   arazzo: null
+- slug: copado-uk-g-cloud-14-digital-marketplace
+  label: UK G-Cloud 14 (Digital Marketplace)
+  partner_name: UK G-Cloud 14 (Digital Marketplace)
+  category: UK public-sector procurement framework
+  type: marketplace
+  marketplace: g-cloud
+  channel: distribution
+  evidence: https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/supplier/721998
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: UK G-Cloud 14 supplier list (Digital Marketplace)
+    spec_file: null
+    role: g-cloud-supplier
+    registered_name: COPADO LIMITED
+    register_id: '721998'
+    matched_domain: copado.com
+    matched_by: domain
+    domain_source: contact-email
+    signal_note: a framework award is distribution (selling to the public sector), not an integration; kept out
+      of position shares
+    detected_by: sweep-uk-g-cloud-suppliers.py
+    detected: '2026-10-21'
+  status: not-a-workflow
+  arazzo: null
 - slug: copado-slack-own
   label: Slack (own)
   partner: slack
@@ -209,28 +234,16 @@
   relationship: platform-app
   status: not-a-workflow
   arazzo: null
-- slug: copado-uk-g-cloud-14-digital-marketplace
-  label: UK G-Cloud 14 (Digital Marketplace)
-  partner_name: UK G-Cloud 14 (Digital Marketplace)
-  category: UK public-sector procurement framework
+- slug: copado-jenkins-own
+  label: Jenkins (own)
+  partner: jenkins
+  partner_name: Jenkins (own)
+  category: Jenkins plugin
   type: marketplace
-  marketplace: g-cloud
-  channel: distribution
-  evidence: https://www.applytosupply.digitalmarketplace.service.gov.uk/g-cloud-14/supplier/721998
+  marketplace: own
+  channel: partner-built
+  evidence: https://plugins.jenkins.io/copado/
   source: edge
-  relationship: distribution-channel
-  contract_reference:
-    register: UK G-Cloud 14 supplier list (Digital Marketplace)
-    spec_file: null
-    role: g-cloud-supplier
-    registered_name: COPADO LIMITED
-    register_id: '721998'
-    matched_domain: copado.com
-    matched_by: domain
-    domain_source: contact-email
-    signal_note: a framework award is distribution (selling to the public sector), not an integration; kept out
-      of position shares
-    detected_by: sweep-uk-g-cloud-suppliers.py
-    detected: '2026-10-21'
+  relationship: platform-app
   status: not-a-workflow
   arazzo: null
